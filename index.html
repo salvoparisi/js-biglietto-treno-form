@@ -10,19 +10,50 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Calcola il prezzo del biglietto</h1>
-    <input type="text" id="name-surname">
-    <input type="text" id="km">
-    <select id="age">
-        <option value="1">Scegli la tua fascia d'età</option>
-        <option value="2">Minorenne</option>
-        <option value="3">Maggiorenne</option>
-        <option value="4">Over 65</option>
-    </select>
-    <button id="generation">Genera</button>
+  <body class="bg-primary text-center"> 
+      <h1 class="text-white">Calcola il prezzo del biglietto</h1>
+      <div class="bg-white container rounded shadow text-primary">
+        <div class="d-flex justify justify-content-center">
+            <div class="m-3">
+                <span>Nome e Cognome</span> <br>
+                <input type="text" id="name-surname">
+            </div>  
+            <div class="m-3">
+                <span>Chilometri da percorrere</span> <br>
+                <input type="text" id="km">
+            </div>
+            <div class="m-3">
+                <span>Fascia d'età</span> <br>
+                <select id="age">
+                    <option value="1">Scegli la tua fascia d'età</option>
+                    <option value="2">Minorenne</option>
+                    <option value="3">Maggiorenne</option>
+                    <option value="4">Over 65</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <button class="px-5 py-2 mb-3 bg-primary text-white" id="generation">Genera</button>
+    </div>
 
-    <p id="your-ticket"></p>
+    <p id="your-ticket">
+        <h1 class="text-white">Il tuo biglietto</h1>
+        <div class="">
+            Nome Passeggero:
+        </div>
+        <div>
+            Offerta:
+        </div>
+        <div>
+            Carrozza:
+        </div>
+        <div>
+            Codice CP:
+        </div>
+        <div>
+            Costo biglietto:
+        </div>
+    </p>
 
     <!-- Optional JavaScript -->
     <script src="./main.js"></script>

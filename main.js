@@ -43,6 +43,6 @@ generation.addEventListener('click', function(){
         Nome: ${nameSurname} <br>
         km da percorrere: ${km} <br>
         fascia d'eta: ${age2}  <br>
-        Costo: ${final_price.toFixed(2)}
+        Costo: ${final_price.toFixed(2)} <br>
     `
 })
