@@ -54,7 +54,7 @@ generation.addEventListener('click', function() {
     yourTicket.innerHTML = `
         <h1 class="text-white">Il tuo biglietto</h1>
         <div class="container bg-white rounded shadow d-flex justify-content-between">
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-start align-items-center">
                 <div class="m-3">
                     <strong>Nome e Cognome:</strong> <br>
                     <strong>${nameSurname}</strong>
