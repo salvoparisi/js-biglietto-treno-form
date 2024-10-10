@@ -60,7 +60,7 @@ generation.addEventListener('click', function() {
                     <strong>${nameSurname}</strong>
                 </div>
             </div>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex flex-wrap justify-content-end">
                 <div class="m-3">
                     <span>Offerta:</span> <br>
                     <span>${sale}</span>
